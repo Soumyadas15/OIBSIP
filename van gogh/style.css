@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Mazius';
+    src: url('/Users/soumya/Library/Fonts/MAZIUS REVIEW 20.09 Extra italic 400.otf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+body{
+    background-color: white;
+    padding: 3em;
+}
+
+.videoContainer{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: hidden;
+}
+#video1{
+    min-width: 100%; 
+    min-height: 100%; 
+    width: auto;
+    height: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+}
+.mainText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 150vw;
+}
+section{
+    position: relative;
+    z-index: 5;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+}
+.content{
+    position: fixed;
+    margin-top: 12%;
+    color: white;
+}
+
+.content h1{
+    white-space: nowrap;
+    font-size: 2%;
+}
+.scrolling{
+    margin-left: 40%;
+    position: absolute;
+    top: 40vh;
+    left: 2%;
+    font-weight: lighter;
+}
+
+.container h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 8vw;
+    
+}
+.container p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: lighter;
+    color: rgb(255, 255, 255);
+}
+#and{
+    margin-right: 1.4vw;
+    margin-left: 1.4vw;
+    font-family: 'Mazius';
+    font-style: italic;
+    color: #57b8ff;
+}
+#van, #gogh{
+    font-family: 'Mazius';
+    font-style: italic;
+    color: #ffffff;
+    font-size: 120%;
+}
+.paragraph{
+    font-size: 1.2vw;
+    width: 50%;
+    background-color: rgba(209, 209, 209, 1); 
+    padding: 1.2vw;
+    display: flex;
+    align-items: center;
+}
+.paragraph h2{
+    font-weight: lighter;
+    color: black;
+    line-height: 1.5;
+    font-size: 1.5vw;
+}
+.quote h2{
+    font-family: 'Mazius';
+    font-style: italic;
+    font-size: 5vw;
+}
+.special{
+    font-family: 'Mazius';
+    font-style: italic;
+    color: rgb(0, 0, 0);
+}
+.special1{
+    font-family: 'Mazius';
+    font-style: italic;
+    font-size: 4vw;
+    color: rgb(138, 8, 36);
+}
+.fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    opacity: 0.2;
+    background-color: black;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    z-index: 9999;
+}
+  
+.navbar-logo{
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 2%;
+}
+  
+.navbar-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    color: rgb(173, 173, 173)
+}
+  
+.navbar-item{
+    margin-left: -15%;
+    margin-right: 5%;
+    font-size: 16px;
+    cursor: pointer;
+}
+  
+#black-screen{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+}
+.screen{
+    width: 100%;
+}
+.image1{
+    background-image: url("vanGogh.webp");
+    background-size: cover;
+    width: 50vw;
+    margin-right: 2%;
+    height: 15vw;
+}
+.image2{
+    background-image: url("image\ 2.jpg");
+    background-size: cover;
+    width: 50vw;
+    margin-right: 2%;
+    height: 15vw;
+}
+.image3{
+    background-image: url("image\ 3.png");
+    background-size: cover;
+    width: 50vw;
+    margin-right: 2%;
+    height: 15vw;
+}
+.image4{
+    background-image: url("image\ 4.png");
+    background-size: cover;
+    width: 250%;
+    margin-right: 2%;
+    height: 22vw;
+}
+.image5{
+    background-image: url("image\ 5.png");
+    background-size: cover;
+    width: 50vw;
+    margin-right: 2%;
+    height: 15vw;
+}
+.image6{
+    background-image: url("sunflower.jpg");
+    background-size: cover;
+    width: 50vw;
+    margin-right: 2%;
+    height: 15vw;
+}
+.image7{
+    background-image: url("image\ 7.png");
+    background-size: cover;
+    width: 80vw;
+    margin-right: 2%;
+    height: 18vw;
+}
+.image8{
+    background-image: url("image\ 8.png");
+    background-size: cover;
+    width: 80vw;
+    margin-right: 2%;
+    height: 18vw;
+}
+.image9{
+    background-image: url("image\ 9.png");
+    background-size: cover;
+    width: 50vw;
+    margin-right: 2%;
+    height: 15vw;
+}
+.image10{
+    background-image: url("image\ 10.png");
+    background-size: cover;
+    width: 50vw;
+    margin-right: 2%;
+    height: 15vw;
+}
+.image11{
+    background-image: url("image\ 11.png");
+    background-size: cover;
+    width: 50vw;
+    margin-right: 5%;
+    height: 25vw;
+}
+.image12{
+    background-image: url("image\ 12.png");
+    background-size: cover;
+    width: 50vw;
+    margin-right: 2%;
+    height: 15vw;
+}
+.image13{
+    background-image: url("vanGogh.webp");
+    background-size: cover;
+    width: 50vw;
+    margin-right: 2%;
+    height: 15vw;
+}
+.image14{
+    background-image: url("image\ 14.png");
+    background-size: cover;
+    width: 50vw;
+    margin-right: 2%;
+    height: 15vw;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+  
+::-webkit-scrollbar-thumb{
+    display: none;
+}
+
+
+
